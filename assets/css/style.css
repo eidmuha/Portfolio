@@ -221,7 +221,7 @@ input[type=submit] {
 }
 
 
-/* For responsive layouts */
+/* For mobile first responsive layouts */
 @media screen and (max-width:640px){
   nav {
     float: none;
@@ -272,7 +272,7 @@ input[type=submit] {
   }
 
 }
-
+/* ipad responsive */
 @media screen and (max-width: 768px){
   h1{
     font-size: 98%;
@@ -282,6 +282,7 @@ input[type=submit] {
   }
 
 }
+/* desktop responsive */
 
 @media screen and (max-width: 980px){
   .container{
